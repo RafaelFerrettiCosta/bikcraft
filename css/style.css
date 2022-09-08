@@ -5,3 +5,8 @@
 @import "./utility/components.css";
 @import "./utility/colors.css";
 @import "./bikes/bike-list.css";
+@import "./home/tech.css";
+@import "./home/partners.css";
+@import "./home/quote.css";
+@import "./insurance/insurance.css";
+@import "./global/footer.css";
