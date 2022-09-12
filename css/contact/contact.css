@@ -15,12 +15,14 @@
 
 .contact-data {
   border-radius: 5px 0 0 5px;
-  background: var(--color-12);
+  background: var(--color-12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
 }
 
 .contact-form {
   border-radius: 0 5px 5px 0;
-  background: var(--color-0);
+  background: var(--color-0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
 }
 
 .contact-data h2 {
@@ -49,7 +51,7 @@
 }
 
 .contact-ways a:first-child {
-  background: url(../../img/icones/email.svg) no-repeat 0px 2px;
+  background: url("../../img/icones/email.svg") no-repeat 0px 2px;
 }
 
 .contact-ways a:nth-child(2) {
@@ -57,7 +59,7 @@
 }
 
 .contact-ways a:nth-child(3) {
-  background: url(../../img/icones/telefone.svg) no-repeat 0px 2px;
+  background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
   margin-bottom: 60px;
 }
 
@@ -77,6 +79,7 @@
   }
   .contact-data {
     border-radius: 5px 5px 0 0;
+    background-color: var(--color-12);
   }
   .contact-form {
     border-radius: 0 0 5px 5px;
